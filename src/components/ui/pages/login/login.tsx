@@ -64,7 +64,7 @@ export const LoginUI: FC<LoginUIProps> = ({
       </div>
       <div className={`${styles.question} text text_type_main-default pb-6`}>
         Забыли пароль?
-        <Link to={'/forgot-password'} className={`pl-2 ${styles.link}`}>
+        <Link to='/forgot-password' className={`pl-2 ${styles.link}`}>
           Восстановить пароль
         </Link>
       </div>

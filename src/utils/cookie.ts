@@ -17,6 +17,8 @@ export function setCookie(
 ) {
   props = {
     path: '/',
+    secure: true,
+    sameSite: 'None',
     ...props
   };
 

@@ -16,11 +16,15 @@
 
 .link {
   display: flex;
+  align-items: center;
   text-decoration: none;
   color: var(--text-inactive-color);
 }
 
 .link_active {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
   color: var(--text-primary-color);
 }
 
